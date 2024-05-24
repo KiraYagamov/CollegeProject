@@ -2,48 +2,44 @@ using UnityEngine;
 
 public class PlayerControlls : MonoBehaviour
 {
-    public float speed = 6.0f;
-    public float jumpSpeed = 8.0f;
-    public float rotateSpeed = 0.8f;
-    public float gravity = 20.0f;
-    public float baseGravity = 30f;
+    [SerializeField] private float speed = 6.0f;
+    [SerializeField] private float jumpForce = 8.0f;
+    [SerializeField] private float rotateSpeed = 0.8f;
+    [SerializeField] private float gravity = 20.0f;
 
-    public float walkSpeed = 6;
-    public float runSpeed = 8;
+    private Vector3 _moveDirection = Vector3.zero;
 
-    public Vector3 moveDirection = Vector3.zero;
-
-    private CharacterController controller;
-    private Transform playerCamera;
+    private CharacterController _controller;
+    private Transform _playerCamera;
 
     private void Start()
     {
-        controller = GetComponent<CharacterController>();
-        playerCamera = GetComponentInChildren<Camera>().transform;
+        _controller = GetComponent<CharacterController>();
+        _playerCamera = GetComponentInChildren<Camera>().transform;
     }
 
     void Update()
     {
         transform.Rotate(0, Input.GetAxis("Mouse X") * rotateSpeed, 0);
 
-        playerCamera.Rotate(-Input.GetAxis("Mouse Y") * rotateSpeed, 0, 0);
-        if (playerCamera.localRotation.eulerAngles.y != 0)
+        _playerCamera.Rotate(-Input.GetAxis("Mouse Y") * rotateSpeed, 0, 0);
+        if (_playerCamera.localRotation.eulerAngles.y != 0)
         {
-            playerCamera.Rotate(Input.GetAxis("Mouse Y") * rotateSpeed, 0, 0);
+            _playerCamera.Rotate(Input.GetAxis("Mouse Y") * rotateSpeed, 0, 0);
         }
 
-        moveDirection = new Vector3(Input.GetAxis("Horizontal") * speed, moveDirection.y,
+        _moveDirection = new Vector3(Input.GetAxis("Horizontal") * speed, _moveDirection.y,
             Input.GetAxis("Vertical") * speed);
 
-        moveDirection = transform.TransformDirection(moveDirection);
+        _moveDirection = transform.TransformDirection(_moveDirection);
 
-        if (controller.isGrounded)
+        if (_controller.isGrounded)
         {
-            if (Input.GetButton("Jump")) moveDirection.y = jumpSpeed;
-            else moveDirection.y = 0;
+            if (Input.GetButton("Jump")) _moveDirection.y = jumpForce;
+            else _moveDirection.y = 0;
         }
 
-        moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * Time.deltaTime);
+        _moveDirection.y -= gravity * Time.deltaTime;
+        _controller.Move(_moveDirection * Time.deltaTime);
     }
 }
