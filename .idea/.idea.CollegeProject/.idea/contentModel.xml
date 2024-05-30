@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Kira\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Kira\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_CollegeProject.98678965.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Kira\Documents\GitHub\CollegeProject\CollegeProject" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Player" t="Include">
+            <e p="PlayerControlls.cs" t="Include" />
+            <e p="RaycastForSimulators.cs" t="Include" />
+            <e p="UI.cs" t="Include" />
+          </e>
+          <e p="Simulators" t="Include">
+            <e p="Door" t="Include">
+              <e p="Teleporter.cs" t="Include" />
+            </e>
+            <e p="DoorRunner.cs" t="Include" />
+            <e p="PythonSimulator" t="Include">
+              <e p="PythonSimulator.cs" t="Include" />
+            </e>
+            <e p="PythonSimulatorRunner.cs" t="Include" />
+            <e p="SimRunner.cs" t="Include" />
+            <e p="Simulator.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="CollegeProject.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
