@@ -3,16 +3,14 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-    public static GameController Main;
-    public bool blackStep = false;
+    private bool blackStep;
     [SerializeField] private GameObject cellPrefab;
     [SerializeField] private GameObject cellHolder;
     public Cell selectedCell;
-    private Cell[,] _cells = new Cell[8,8];
+    private readonly Cell[,] _cells = new Cell[8,8];
 
     private void Start()
     {
-        Main = this;
         GenerateCells();
     }
     private void GenerateCells()
@@ -208,10 +206,10 @@ public class GameController : MonoBehaviour
     {
         Vector2Int[] checkCells =
         {
-            new Vector2Int(startCoord.x-1, startCoord.y+2), new Vector2Int(startCoord.x+1, startCoord.y+2),
-            new Vector2Int(startCoord.x-1, startCoord.y-2), new Vector2Int(startCoord.x+1, startCoord.y-2),
-            new Vector2Int(startCoord.x+2, startCoord.y-1), new Vector2Int(startCoord.x+2, startCoord.y+1),
-            new Vector2Int(startCoord.x-2, startCoord.y-1), new Vector2Int(startCoord.x-2, startCoord.y+1),
+            new (startCoord.x-1, startCoord.y+2), new (startCoord.x+1, startCoord.y+2),
+            new (startCoord.x-1, startCoord.y-2), new (startCoord.x+1, startCoord.y-2),
+            new (startCoord.x+2, startCoord.y-1), new (startCoord.x+2, startCoord.y+1),
+            new (startCoord.x-2, startCoord.y-1), new (startCoord.x-2, startCoord.y+1),
         };
         foreach (var cell in checkCells)
         {
@@ -393,9 +391,9 @@ public class GameController : MonoBehaviour
     {
         Vector2Int[] checkCells =
         {
-            new Vector2Int(startCoord.x, startCoord.y+1), new Vector2Int(startCoord.x+1, startCoord.y+1), new Vector2Int(startCoord.x-1, startCoord.y+1),
-            new Vector2Int(startCoord.x, startCoord.y-1), new Vector2Int(startCoord.x+1, startCoord.y-1), new Vector2Int(startCoord.x-1, startCoord.y-1),
-            new Vector2Int(startCoord.x+1, startCoord.y), new Vector2Int(startCoord.x-1, startCoord.y),
+            new (startCoord.x, startCoord.y+1), new (startCoord.x+1, startCoord.y+1), new (startCoord.x-1, startCoord.y+1),
+            new (startCoord.x, startCoord.y-1), new (startCoord.x+1, startCoord.y-1), new (startCoord.x-1, startCoord.y-1),
+            new (startCoord.x+1, startCoord.y), new (startCoord.x-1, startCoord.y),
         };
         foreach (var cell in checkCells)
         {

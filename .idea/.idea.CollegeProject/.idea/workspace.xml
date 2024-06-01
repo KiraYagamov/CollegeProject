@@ -35,6 +35,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/ChessRunner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/GameController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2gvJ6eRIFm8BVWh9Ac3npZWea7q" />
@@ -94,6 +95,7 @@
       <workItem from="1717002049941" duration="2286000" />
       <workItem from="1717168461907" duration="3141000" />
       <workItem from="1717232297088" duration="2787000" />
+      <workItem from="1717239445498" duration="1523000" />
     </task>
     <servers />
   </component>
