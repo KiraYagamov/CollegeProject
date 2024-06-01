@@ -18,6 +18,10 @@ public class Simulator : MonoBehaviour
         {
             _simRunner = new DoorRunner(this);
         }
+        else if (simulatorName == "Chess")
+        {
+            _simRunner = new ChessRunner();
+        }
     }
 
     public SimRunner GetRunner()

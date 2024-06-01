@@ -8,26 +8,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/UnityProjects/Minecraft/Assets/GameWorld.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/SimRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/RaycastForSimulators.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulatorRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/DoorRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControlls.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/ChessRunner.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2gvJ6eRIFm8BVWh9Ac3npZWea7q" />
@@ -85,6 +92,8 @@
       <workItem from="1716910654532" duration="1473000" />
       <workItem from="1716916252736" duration="5104000" />
       <workItem from="1717002049941" duration="2286000" />
+      <workItem from="1717168461907" duration="3141000" />
+      <workItem from="1717232297088" duration="2787000" />
     </task>
     <servers />
   </component>

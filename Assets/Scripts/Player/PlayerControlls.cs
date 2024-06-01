@@ -24,7 +24,7 @@ public class PlayerControlls : MonoBehaviour
 
     void Update()
     {
-        if (_raycastForSimulators.GetSimulator() != null && _raycastForSimulators.GetSimulator().IsOpened())
+        if (_raycastForSimulators.GetSimulator() != null && _raycastForSimulators.GetSimulator().IsOpened() || GameMenu.Main.menuOpened)
         {
             return;
         }
@@ -52,7 +52,9 @@ public class PlayerControlls : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            _raycastForSimulators.GetSimulator().GetRunner().RunBlackScreen();
+            Simulator simulator = _raycastForSimulators.GetSimulator();
+            if (simulator == null) return;
+            simulator.GetRunner().RunBlackScreen();
             UI.Main.simDoing = _raycastForSimulators.GetSimulator().GetRunner().RunTask;
         }
     }

@@ -5,11 +5,19 @@ public class Teleporter : MonoBehaviour
 {
     public void ToOffice()
     {
-        SceneManager.LoadScene(0);
+        UI.Main.simDoing = () =>
+        {
+            SceneManager.LoadScene("OfficeScene");
+        };
+        UI.Main.StartBlackScreen();
     }
 
     public void ToGym()
     {
-        SceneManager.LoadScene(1);
+        UI.Main.simDoing = () =>
+        {
+            SceneManager.LoadScene("GymScene");
+        };
+        UI.Main.StartBlackScreen();
     }
 }
