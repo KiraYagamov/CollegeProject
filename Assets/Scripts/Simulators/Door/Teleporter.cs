@@ -20,4 +20,13 @@ public class Teleporter : MonoBehaviour
         };
         UI.Main.StartBlackScreen();
     }
+
+    public void ToAI()
+    {
+        UI.Main.simDoing = () =>
+        {
+            SceneManager.LoadScene("Office2");
+        };
+        UI.Main.StartBlackScreen();
+    }
 }
