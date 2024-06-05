@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ULTRA
   m_EditorClassIdentifier: 
   m_RenderPipelineSettings:
-    supportShadowMask: 0
+    supportShadowMask: 1
     supportSSR: 0
     supportSSRTransparent: 0
     supportSSAO: 1
@@ -23,9 +23,9 @@ MonoBehaviour:
       m_Values: 140000002800000050000000
       m_SchemaId:
         m_Id: With3Levels
-    supportVolumetrics: 0
+    supportVolumetrics: 1
     supportVolumetricClouds: 0
-    supportLightLayers: 0
+    supportLightLayers: 1
     supportWater: 0
     waterSimulationResolution: 128
     waterCPUSimulation: 0
@@ -34,22 +34,22 @@ MonoBehaviour:
     supportTransparentDepthPrepass: 0
     supportTransparentDepthPostpass: 0
     colorBufferFormat: 48
-    supportCustomPass: 0
-    customBufferFormat: 8
-    supportedLitShaderMode: 1
+    supportCustomPass: 1
+    customBufferFormat: 12
+    supportedLitShaderMode: 3
     planarReflectionResolution:
-      m_Values: 000100000002000000020000
+      m_Values: 000100000002000000040000
       m_SchemaId:
         m_Id: With3Levels
     cubeReflectionResolution:
-      m_Values: 800000000001000000040000
+      m_Values: 000100000002000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 0
     supportDecalLayers: 0
     supportSurfaceGradient: 1
     decalNormalBufferHP: 0
-    msaaSampleCount: 8
+    msaaSampleCount: 4
     supportMotionVectors: 1
     supportDataDrivenLensFlare: 0
     supportRuntimeAOVAPI: 0
@@ -71,13 +71,13 @@ MonoBehaviour:
       reflectionProbeCacheSize: 0
       reflectionCubemapSize: 0
       maxEnvLightsOnScreen: 0
-      reflectionCacheCompressed: 0
+      reflectionCacheCompressed: 1
       reflectionProbeFormat: 74
       reflectionProbeTexCacheSize: 1024
-      reflectionProbeTexLastValidCubeMip: 3
-      reflectionProbeTexLastValidPlanarMip: 0
-      reflectionProbeDecreaseResToFit: 0
-      skyReflectionSize: 256
+      reflectionProbeTexLastValidCubeMip: 6
+      reflectionProbeTexLastValidPlanarMip: 6
+      reflectionProbeDecreaseResToFit: 1
+      skyReflectionSize: 1024
       skyLightingOverrideLayerMask:
         serializedVersion: 2
         m_Bits: 0
@@ -85,8 +85,8 @@ MonoBehaviour:
       maxDirectionalLightsOnScreen: 16
       maxPunctualLightsOnScreen: 512
       maxAreaLightsOnScreen: 64
-      maxCubeReflectionOnScreen: 32
-      maxPlanarReflectionOnScreen: 8
+      maxCubeReflectionOnScreen: 128
+      maxPlanarReflectionOnScreen: 16
       maxDecalsOnScreen: 512
       maxLightsPerClusterCell: 8
       maxLocalVolumetricFogSize: 0
@@ -194,7 +194,7 @@ MonoBehaviour:
       m_Values:
       - 1
       - 1
-      - 200
+      - 1
       m_SchemaId:
         m_Id: With3Levels
     lightingQualitySettings:
@@ -226,12 +226,12 @@ MonoBehaviour:
       RTGIRayLength:
       - 50
       - 50
-      - 50
+      - 51.63
       RTGIFullResolution: 000001
       RTGIClampValue:
       - 2
       - 3
-      - 5
+      - 10
       RTGIRaySteps: 200000003000000040000000
       RTGIDenoise: 010101
       RTGIHalfResDenoise: 010000
@@ -243,11 +243,11 @@ MonoBehaviour:
       RTRMinSmoothness:
       - 0.6
       - 0.4
-      - 0
+      - 1
       RTRSmoothnessFadeStart:
       - 0.7
       - 0.5
-      - 0
+      - 1
       RTRRayLength:
       - 50
       - 50
@@ -255,9 +255,9 @@ MonoBehaviour:
       RTRClampValue:
       - 0.8
       - 1
-      - 1.2
+      - 4.2
       RTRFullResolution: 000001
-      RTRRayMaxIterations: 200000003000000040000000
+      RTRRayMaxIterations: 20000000300000008d000000
       RTRDenoise: 010101
       RTRDenoiserRadius: 080000000c00000010000000
       RTRSmoothDenoising: 010000

@@ -82,8 +82,7 @@ public class GameController : MonoBehaviour
                 Cell cell = hit.transform.GetComponent<Cell>();
                 if (cell.GetFigure() == Figure.Point || cell.figureRenderer.color == Color.red)
                 {
-                    if (selectedCell.color == FigureColor.White) blackStep = true;
-                    else blackStep = false;
+                    blackStep = selectedCell.color == FigureColor.White;
                     cell.SetFigure(selectedCell.GetFigure());
                     selectedCell.SetFigure(Figure.None);
                     ClearPoints();
