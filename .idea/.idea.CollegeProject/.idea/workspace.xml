@@ -10,13 +10,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/UnityProjects/Minecraft/Assets/GameWorld.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/Neuron.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -26,16 +38,21 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/RaycastForSimulators.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulatorRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/DoorRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/ChessRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/GameController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/NeuralNetwork.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/Neuron.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2gvJ6eRIFm8BVWh9Ac3npZWea7q" />
@@ -97,6 +114,10 @@
       <workItem from="1717232297088" duration="2787000" />
       <workItem from="1717239445498" duration="3646000" />
       <workItem from="1717421002640" duration="73000" />
+      <workItem from="1717590813917" duration="818000" />
+      <workItem from="1717775093039" duration="6569000" />
+      <workItem from="1717831540725" duration="3586000" />
+      <workItem from="1717840791714" duration="3698000" />
     </task>
     <servers />
   </component>

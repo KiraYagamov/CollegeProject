@@ -39,6 +39,14 @@ public class UI : MonoBehaviour
             if (simulator.name == "Door") simulator.gameObject.SetActive(visibility);
         }
     }
+
+    public void SetAIVisibility(bool visibility)
+    {
+        foreach (var simulator in simulators)
+        {
+            if (simulator.name == "AI") simulator.gameObject.SetActive(visibility);
+        }
+    }
     public bool SimulatorActive()
     {
         bool active = false;

@@ -19,6 +19,13 @@
             <e p="UI.cs" t="Include" />
           </e>
           <e p="Simulators" t="Include">
+            <e p="AI" t="Include">
+              <e p="NeuralNetwork.cs" t="Include" />
+              <e p="Neuron.cs" t="Include" />
+              <e p="XORBot.cs" t="Include" />
+              <e p="XORManager.cs" t="Include" />
+            </e>
+            <e p="AIRunner.cs" t="Include" />
             <e p="Chess" t="Include">
               <e p="Cell.cs" t="Include" />
               <e p="Figure.cs" t="Include" />

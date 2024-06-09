@@ -22,6 +22,10 @@ public class Simulator : MonoBehaviour
         {
             _simRunner = new ChessRunner();
         }
+        else if (simulatorName == "AI")
+        {
+            _simRunner = new AIRunner(this);
+        }
     }
 
     public SimRunner GetRunner()
