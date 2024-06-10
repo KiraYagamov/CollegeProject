@@ -6962,7 +6962,7 @@ MonoBehaviour:
   neuronPrefab: {fileID: 6335994425411145553, guid: 7e99d0c0a3b790441b5950039a27a0f1, type: 3}
   layerPrefab: {fileID: 1452944902544701990, guid: 32be8a6c3b957ca4f904595924cf2e78, type: 3}
   neuronsField: {fileID: 9782719}
-  populationSize: 10
+  populationSize: 50
   MutationChance: 0.1
   MutationStrength: 0.5
   Gamespeed: 1
