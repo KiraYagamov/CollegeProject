@@ -26,6 +26,10 @@ public class Simulator : MonoBehaviour
         {
             _simRunner = new AIRunner(this);
         }
+        else if (simulatorName == "PhysicsLab")
+        {
+            _simRunner = new PhysicsRunner();
+        }
     }
 
     public SimRunner GetRunner()

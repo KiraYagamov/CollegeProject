@@ -29,4 +29,13 @@ public class Teleporter : MonoBehaviour
         };
         UI.Main.StartBlackScreen();
     }
+
+    public void ToPhysics()
+    {
+        UI.Main.simDoing = () =>
+        {
+            SceneManager.LoadScene("Physics");
+        };
+        UI.Main.StartBlackScreen();
+    }
 }

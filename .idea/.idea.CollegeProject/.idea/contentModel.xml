@@ -13,6 +13,13 @@
           <e p="MainMenu" t="Include">
             <e p="MainMenu.cs" t="Include" />
           </e>
+          <e p="Physics" t="Include">
+            <e p="DrawLine.cs" t="Include" />
+            <e p="PhysicsController.cs" t="Include" />
+            <e p="SecondPos.cs" t="Include" />
+            <e p="Switcher.cs" t="Include" />
+            <e p="UIPhys.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="PlayerControlls.cs" t="Include" />
             <e p="RaycastForSimulators.cs" t="Include" />
@@ -38,12 +45,18 @@
               <e p="Teleporter.cs" t="Include" />
             </e>
             <e p="DoorRunner.cs" t="Include" />
+            <e p="PhysicsRunner.cs" t="Include" />
             <e p="PythonSimulator" t="Include">
               <e p="PythonSimulator.cs" t="Include" />
             </e>
             <e p="PythonSimulatorRunner.cs" t="Include" />
             <e p="SimRunner.cs" t="Include" />
             <e p="Simulator.cs" t="Include" />
+          </e>
+          <e p="SysAdmin" t="Include">
+            <e p="SysAdminCell.cs" t="Include" />
+            <e p="SysAdminController.cs" t="Include" />
+            <e p="WhatIsIt.cs" t="Include" />
           </e>
         </e>
       </e>

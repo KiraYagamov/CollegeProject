@@ -41,11 +41,11 @@ public class PlayerControlls : MonoBehaviour
 
         _moveDirection = transform.TransformDirection(_moveDirection);
 
-        if (_controller.isGrounded)
-        {
-            if (Input.GetButton("Jump")) _moveDirection.y = jumpForce;
-            else _moveDirection.y = 0;
-        }
+        //if (_controller.isGrounded)
+        //{
+            //if (Input.GetButton("Jump")) _moveDirection.y = jumpForce;
+            //else _moveDirection.y = 0;
+        //}
 
         _moveDirection.y -= gravity * Time.deltaTime;
         _controller.Move(_moveDirection * Time.deltaTime);
