@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PhysicsSimulator.unity
     guid: 54ae8d87d9f148049b22fc37ca26bfff
+  - enabled: 1
+    path: Assets/Scenes/SysAdmin.unity
+    guid: 8c4d41a2aada2cb4a9acc49c383bf2ca
+  - enabled: 1
+    path: Assets/Scenes/SysAdminOffice.unity
+    guid: 2260b5d8dfd31bf4aa01e2a9bfcacb6e
   m_configObjects: {}

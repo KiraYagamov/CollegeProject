@@ -38,4 +38,13 @@ public class Teleporter : MonoBehaviour
         };
         UI.Main.StartBlackScreen();
     }
+
+    public void ToSysAdmin()
+    {
+        UI.Main.simDoing = () =>
+        {
+            SceneManager.LoadScene("SysAdminOffice");
+        };
+        UI.Main.StartBlackScreen();
+    }
 }

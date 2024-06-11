@@ -52,6 +52,7 @@
             <e p="PythonSimulatorRunner.cs" t="Include" />
             <e p="SimRunner.cs" t="Include" />
             <e p="Simulator.cs" t="Include" />
+            <e p="SysAdminRunner.cs" t="Include" />
           </e>
           <e p="SysAdmin" t="Include">
             <e p="SysAdminCell.cs" t="Include" />

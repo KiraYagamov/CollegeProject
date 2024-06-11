@@ -13,4 +13,14 @@ public class UIController : MonoBehaviour
     {
         SceneManager.LoadScene("GymScene");
     }
+
+    public void LoadSysAdmin()
+    {
+        SceneManager.LoadScene("SysAdminOffice");
+    }
+
+    public void LeaveFromSysAdmin()
+    {
+        animator.SetTrigger("SysAdminLeave");
+    }
 }

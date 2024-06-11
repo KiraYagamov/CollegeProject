@@ -42,10 +42,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/ChessRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/NeuralNetwork.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" />
@@ -55,8 +53,11 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SysAdmin/SysAdminController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PhysicsRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Physics/UIPhys.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/SysAdminRunner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2gvJ6eRIFm8BVWh9Ac3npZWea7q" />
@@ -123,7 +124,8 @@
       <workItem from="1717831540725" duration="3586000" />
       <workItem from="1717840791714" duration="3698000" />
       <workItem from="1718031773284" duration="1300000" />
-      <workItem from="1718107574389" duration="784000" />
+      <workItem from="1718107574389" duration="1395000" />
+      <workItem from="1718116759925" duration="692000" />
     </task>
     <servers />
   </component>

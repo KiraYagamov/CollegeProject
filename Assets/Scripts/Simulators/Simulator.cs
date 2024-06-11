@@ -30,6 +30,10 @@ public class Simulator : MonoBehaviour
         {
             _simRunner = new PhysicsRunner();
         }
+        else if (simulatorName == "SysAdmin")
+        {
+            _simRunner = new SysAdminRunner();
+        }
     }
 
     public SimRunner GetRunner()
