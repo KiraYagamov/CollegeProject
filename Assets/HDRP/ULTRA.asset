@@ -38,11 +38,11 @@ MonoBehaviour:
     customBufferFormat: 12
     supportedLitShaderMode: 3
     planarReflectionResolution:
-      m_Values: 000100000002000000040000
+      m_Values: 000400000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     cubeReflectionResolution:
-      m_Values: 000100000002000000040000
+      m_Values: 000400000004000000040000
       m_SchemaId:
         m_Id: With3Levels
     supportDecals: 0
@@ -60,8 +60,8 @@ MonoBehaviour:
     probeVolumeBlendingMemoryBudget: 128
     supportProbeVolumeStreaming: 0
     probeVolumeSHBands: 1
-    supportRayTracing: 1
-    supportedRayTracingMode: 3
+    supportRayTracing: 0
+    supportedRayTracingMode: 2
     lightLoopSettings:
       cookieAtlasSize: 256
       cookieFormat: 74
@@ -71,12 +71,12 @@ MonoBehaviour:
       reflectionProbeCacheSize: 0
       reflectionCubemapSize: 0
       maxEnvLightsOnScreen: 0
-      reflectionCacheCompressed: 1
-      reflectionProbeFormat: 74
+      reflectionCacheCompressed: 0
+      reflectionProbeFormat: 48
       reflectionProbeTexCacheSize: 1024
       reflectionProbeTexLastValidCubeMip: 6
       reflectionProbeTexLastValidPlanarMip: 6
-      reflectionProbeDecreaseResToFit: 1
+      reflectionProbeDecreaseResToFit: 0
       skyReflectionSize: 1024
       skyLightingOverrideLayerMask:
         serializedVersion: 2

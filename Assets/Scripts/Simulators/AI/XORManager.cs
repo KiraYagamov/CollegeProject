@@ -97,6 +97,7 @@ public class XORManager : MonoBehaviour
             learnBtnText.text = "Обучать";
         else
             learnBtnText.text = "Стоп";
+        QuestManager.Quest3++;
     }
 
     public void CreateBots()
@@ -132,7 +133,7 @@ public class XORManager : MonoBehaviour
         networks.Sort();
         for (int i = 0; i < populationSize / 2; i++)
         {
-            networks[i] = networks[populationSize - 1].copy(new NeuralNetwork(layers));
+            networks[i] = networks[populationSize - 1].Copy(new NeuralNetwork(layers));
             networks[i].Mutate((int)(1/MutationChance), MutationStrength);
         }
     }

@@ -8,6 +8,7 @@ public class GameController : MonoBehaviour
     [SerializeField] private GameObject cellHolder;
     public Cell selectedCell;
     private readonly Cell[,] _cells = new Cell[8,8];
+    [SerializeField] private UIController uiController;
 
     private void Start()
     {
@@ -82,6 +83,11 @@ public class GameController : MonoBehaviour
                 Cell cell = hit.transform.GetComponent<Cell>();
                 if (cell.GetFigure() == Figure.Point || cell.figureRenderer.color == Color.red)
                 {
+                    if (cell.GetFigure() == Figure.WhiteKing || cell.GetFigure() == Figure.BlackKing)
+                    {
+                        uiController.GameOver();
+                        QuestManager.Quest2++;
+                    }
                     blackStep = selectedCell.color == FigureColor.White;
                     cell.SetFigure(selectedCell.GetFigure());
                     selectedCell.SetFigure(Figure.None);

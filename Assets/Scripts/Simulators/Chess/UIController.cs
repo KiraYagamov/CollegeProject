@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class UIController : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+    [SerializeField] private GameObject gameOverObj;
     public void Leave()
     {
         animator.SetTrigger("BlackscreenBack");
@@ -22,5 +23,10 @@ public class UIController : MonoBehaviour
     public void LeaveFromSysAdmin()
     {
         animator.SetTrigger("SysAdminLeave");
+    }
+
+    public void GameOver()
+    {
+        gameOverObj.SetActive(true);
     }
 }

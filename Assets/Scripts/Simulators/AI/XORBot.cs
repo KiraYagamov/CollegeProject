@@ -39,13 +39,4 @@ public class XORBot : MonoBehaviour
             }
         }
     }
-
-    public void TakeInput(int i, int j, int k)
-    {
-        inputs = new float[3];
-        inputs[0] = i;
-        inputs[1] = j;
-        inputs[2] = k;
-        float[] outputs = network.FeedForward(inputs);
-    }
 }

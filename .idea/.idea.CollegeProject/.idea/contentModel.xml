@@ -9,6 +9,8 @@
         <e p="Scripts" t="Include">
           <e p="Game" t="Include">
             <e p="GameMenu.cs" t="Include" />
+            <e p="QuestManager.cs" t="Include" />
+            <e p="QuestsController.cs" t="Include" />
           </e>
           <e p="MainMenu" t="Include">
             <e p="MainMenu.cs" t="Include" />
@@ -19,11 +21,18 @@
             <e p="SecondPos.cs" t="Include" />
             <e p="Switcher.cs" t="Include" />
             <e p="UIPhys.cs" t="Include" />
+            <e p="UnitTests" t="Include">
+              <e p="DrawLineTest.cs" t="Include" />
+              <e p="PhysicsControllerTest.cs" t="Include" />
+            </e>
           </e>
           <e p="Player" t="Include">
             <e p="PlayerControlls.cs" t="Include" />
             <e p="RaycastForSimulators.cs" t="Include" />
             <e p="UI.cs" t="Include" />
+            <e p="UnitTests" t="Include">
+              <e p="TestRaycastForSimulators.cs" t="Include" />
+            </e>
           </e>
           <e p="Simulators" t="Include">
             <e p="AI" t="Include">
@@ -48,6 +57,9 @@
             <e p="PhysicsRunner.cs" t="Include" />
             <e p="PythonSimulator" t="Include">
               <e p="PythonSimulator.cs" t="Include" />
+              <e p="UnitTests" t="Include">
+                <e p="PythonSimulatorTest.cs" t="Include" />
+              </e>
             </e>
             <e p="PythonSimulatorRunner.cs" t="Include" />
             <e p="SimRunner.cs" t="Include" />
@@ -57,6 +69,9 @@
           <e p="SysAdmin" t="Include">
             <e p="SysAdminCell.cs" t="Include" />
             <e p="SysAdminController.cs" t="Include" />
+            <e p="UnitTests" t="Include">
+              <e p="SysAdminControllerTest.cs" t="Include" />
+            </e>
             <e p="WhatIsIt.cs" t="Include" />
           </e>
         </e>

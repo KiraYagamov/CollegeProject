@@ -68,6 +68,7 @@ public class PythonSimulator : MonoBehaviour
         {
             result.color = Color.green;
             result.text = $"Вывод: {a + b}";
+            QuestManager.Quest1++;
         }
         else
         {
@@ -76,7 +77,7 @@ public class PythonSimulator : MonoBehaviour
         }
     }
 
-    private bool Contains(string data)
+    public bool Contains(string data)
     {
         foreach (var answer in rightAnswers)
         {

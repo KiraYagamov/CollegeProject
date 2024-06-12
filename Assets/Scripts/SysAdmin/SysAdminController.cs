@@ -112,7 +112,7 @@ public class SysAdminController : MonoBehaviour
             winPanel.SetActive(true);
     }
 
-    private bool CheckWin()
+    public bool CheckWin()
     {
         bool win = true;
         for (int i = 0; i < 9; i++)
@@ -138,6 +138,7 @@ public class SysAdminController : MonoBehaviour
     public void NextLevel()
     {
         _currentLevel++;
+        QuestManager.Quest5++;
         switch (_currentLevel)
         {
             case 1:

@@ -56,10 +56,15 @@ public class PhysicsController : MonoBehaviour
             currentDrawing.lineRenderer.SetPosition(1, pos);
         }
 
-        torch.sprite = AllRight() ? onTorch : offTorch;
+        if (AllRight())
+        {
+            torch.sprite = onTorch;
+            QuestManager.Quest4++;
+        }
+        else torch.sprite = offTorch;
     }
 
-    private bool AllRight()
+    public bool AllRight()
     {
         bool right = true;
         if (!switcher.state) return false;

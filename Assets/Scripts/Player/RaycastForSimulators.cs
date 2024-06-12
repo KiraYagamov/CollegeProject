@@ -9,7 +9,7 @@ public class RaycastForSimulators : MonoBehaviour
     private void Update()
     {
         Ray ray = camera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0.5f));
-        if (Physics.Raycast(ray, out var hitInfo))
+        if (UnityEngine.Physics.Raycast(ray, out var hitInfo))
         {
             Simulator sim = null;
             if (Vector3.Distance(hitInfo.point, camera.transform.position) <= rayDistance)
@@ -20,7 +20,7 @@ public class RaycastForSimulators : MonoBehaviour
         }
     }
 
-    private void SetSimulator(Simulator simulator)
+    public void SetSimulator(Simulator simulator)
     {
         if (currentSimulator != simulator)
         {

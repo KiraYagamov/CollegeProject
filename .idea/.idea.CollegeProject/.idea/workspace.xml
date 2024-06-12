@@ -21,43 +21,52 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Desktop/UnityProjects/Minecraft/Assets/GameWorld.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Physics/UIPhys.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/Neuron.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Physics/UIPhys.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/QuestManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/SimRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player/RaycastForSimulators.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulatorRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/DoorRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Game/GameMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/ChessRunner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/GameController.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/NeuralNetwork.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/UI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AIRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/Neuron.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SysAdmin/SysAdminController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerControlls.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PhysicsRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Physics/UIPhys.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/SysAdminRunner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Simulator.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Door/Teleporter.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/QuestManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Game/QuestsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/GameController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/Chess/UIController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Physics/UnitTests/DrawLineTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Physics/PhysicsController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Physics/UnitTests/PhysicsControllerTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/RaycastForSimulators.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/UnitTests/TestRaycastForSimulators.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/NeuralNetwork.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/AI/XORBot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/PythonSimulator.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Simulators/PythonSimulator/UnitTests/PythonSimulatorTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SysAdmin/UnitTests/SysAdminControllerTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SysAdmin/SysAdminController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2gvJ6eRIFm8BVWh9Ac3npZWea7q" />
@@ -125,7 +134,8 @@
       <workItem from="1717840791714" duration="3698000" />
       <workItem from="1718031773284" duration="1300000" />
       <workItem from="1718107574389" duration="1395000" />
-      <workItem from="1718116759925" duration="1711000" />
+      <workItem from="1718116759925" duration="2015000" />
+      <workItem from="1718173985383" duration="2930000" />
     </task>
     <servers />
   </component>
